@@ -1,0 +1,55 @@
+#argparse
+
+首先要先建立一個argparse
+parser = argparse.ArgumentParser()
+
+再來就能新增引數了
+
+(參考 https://docs.python.org/zh-cn/3/library/argparse.html#the-add-argument-method)
+
+這裡用的到的
+parser.add_argument('--text','-t', type=str, nargs='?',required=true, help='Text for program')
+
+name or flags
+設定引數名稱時
+可以不加 '--' 這樣就會自動把輸入值依序丟入
+'--全名' 存在， '-小名'才可以被設定；到時候呼叫該引數值的時候也只能呼叫'全名'
+
+nargs
+指定一個大於0的正整數時，就會生成一個List，把N個值放入該List
+*只要設定就會變成List類別
+設定'?'就會改成一次消耗一個參數；用於一次輸入不定多數後一個一個消化掉
+
+type
+預先指定輸入的形別
+argparse.FileType('r')←這寫法也行，研究中
+
+help
+錯誤的時候跳的引數說明
+
+----
+(最簡單的)可以用ls | python 程式名.py
+把文件名逐行輸出的寫法
+
+import argparse
+import sys
+
+parser = argparse.ArgumentParser()
+parser.add_argument('stdin', nargs='?',type=str ,default=sys.stdin)
+
+#本行註解在下方
+if not sys.stdin.isatty():
+    SS = parser.parse_args().stdin.read().splitlines()
+else:
+    stdin = []
+
+for lines in SS:
+    print(lines)
+
+#sys.stdin.isatty()
+#是true的話，代表現在是交互式界面
+#在等待使用者的輸入
+#
+#如果現在是在等待標準輸入(就是用Pipe導入資訊)
+#這個會給False
+

@@ -1,0 +1,11 @@
+﻿country_A,country_A_abr,A,country_B,country_B_abr,B,country_C,country_C_abr,C,country_D,country_D_abr,D,country_E,country_E_abr,E,country_F,country_F_abr,F,country_G,country_G_abr,G,country_H,country_H_abr,H
+Luxembourg,LU,98,Ireland,IE,110,Brazil,BR,204,India,IN,23,China,CN,56,Sweden,SE,98,Panama,PA,14,Albania,Al,24
+Russia,RU,109,Brazil,BR,117,Israel,IL,396,Spain,ES,47,Norway,NO,59,Spain,ES,136,Poland,PL,17,New Zealand,NZ,26
+South Africa,ZA,124,China,CN,206,China,CN,634,Sweden,SE,49,Belgium,BE,134,United States,US,283,Luxembourg,LU,23,Ireland,IE,64
+Norway,NO,253,Sweden,SE,290,Japan,JP,1278,Belgium,BE,61,Spain,ES,157,Canada,CA,294,New Zealand,NZ,40,Belgium,BE,222
+Finland,FI,639,United States,US,911,Austria,AT,1305,Canada,CA,62,Italy,IT,209,Italy,IT,412,South Africa,ZA,62,Austria,AT,462
+Israel,IL,820,Japan,JP,927,Canada,CA,1731,United States,US,99,Finland,FI,214,Denmark,DK,434,Brazil,BR,68,Canada,CA,590
+Denmark,DK,1523,Italy,IT,940,Switzerland,CH,2851,Denmark,DK,118,Switzerland,CH,295,Finland,FI,454,Italy,IT,358,Sweden,SE,993
+Netherlands,NL,1562,Switzerland,CH,1622,United States,US,2927,Netherlands,NL,140,Canada,CA,400,Switzerland,CH,482,Finland,FI,514,Netherlands,NL,1039
+France,FR,4540,France,FR,2723,France,FR,5419,Switzerland,CH,320,Australia,AU,628,Austria,AT,491,Austria,AT,518,United Kingdom,GB,2374
+United Kingdom,GB,6747,Germany,DE,10860,United Kingdom,GB,7634,France,FR,356,Germany,DE,1906,United Kingdom,GB,1618,Switzerland,CH,941,Germany,DE,5812
